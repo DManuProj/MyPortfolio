@@ -1,0 +1,50 @@
+.contact{
+    padding-top: 10rem;
+    
+    margin-top: 5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+
+
+
+    .card{
+        scale: (.9);
+        width: auto;
+        padding: -2rem 2rem;
+    
+    @media screen and (max-width: 450px) {
+        scale: (.7);
+        
+      }
+
+    }
+
+
+    @media screen and (max-width: 450px) {
+        margin-top: -15rem;
+
+        .text{
+
+
+            @media screen and (max-width: 450px) {
+                scale: (.7);
+                margin-bottom: -6rem;
+               }
+            h3{
+                font-size: 3rem;
+            }
+            
+        }
+        
+      }
+
+      
+
+
+}
+

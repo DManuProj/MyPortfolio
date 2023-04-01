@@ -1,0 +1,33 @@
+.projects{
+    margin-top: 10rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+   
+    @media screen and (max-width: 450px) {
+       margin-top: -5rem;
+      }
+}
+
+
+
+
+.swiper{
+    margin-top: 7rem;
+    cursor: pointer;
+    img{
+        width: 19rem;
+        margin: 3rem 2rem;
+        height: 100%;
+        
+    }
+   
+   
+}
+
+.project:hover{
+    cursor: pointer;
+}
+
